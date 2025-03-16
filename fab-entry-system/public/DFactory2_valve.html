@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Factory - Assembly - Stations</title>
+    <link rel="stylesheet" href="DFactory2_valve.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Header Section -->
+        <header class="header">
+            <img src="./elgi--600.png" alt="ELGi Logo" class="logo">
+            <div class="header-text">
+                <h1>Digital Factory</h1>
+                <p>Assembly & Stations</p>
+            </div>
+        </header>
+
+        <!-- Station-3: Valve Details -->
+        <section class="station-section">
+            <h2 class="sub-title">Station-3</h2>
+            <h3 class="sub-title">Safty Valve Details</h3>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="safty_valve_make">Safety Valve Make:</label>
+                    <select id="safty_valve_make" class="select_a" required>
+                        <option value="NOSTRALI">NOSTRALI</option>
+                        <option value="SEETRU">SEETRU</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="batch_no">Batch No:</label>
+                    <input type="text" id="batch_no" required>
+                </div>
+                <div class="form-group">
+                    <label for="range">Safety_valve_Range:</label>
+                    <input type="text" id="range" required>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Station-2: Control Panel Details -->
+        <section class="station-section">
+            <h2 class="sub-title">Station-4</h2>
+            <h3 class="sub-title">Other Details</h3>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="solenoid_valve_make">Solenoid valve make:</label>
+                    <select id="solenoid_valve_make" required>
+                        <option value="HOERBIGER">HOERBIGER</option>
+                        <option value="VMC">VMC</option>
+                        <option value="ROTEX">ROTEX</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="intake_valve_sl_no">Intake valve Sl no:</label>
+                    <input type="text" id="intake_valve_sl_no" required>
+                </div>
+                <div class="form-group">
+                    <label for="tv_element">TV Element:</label>
+                    <input type="text" id="tv_element">
+                </div>
+                <div class="form-group">
+                    <label for="aos_batch_no">AOS Batch no:</label>
+                    <input type="text" id="aos_batch_no">
+                </div>
+                <div class="form-group">
+                    <label for="mpv_sl_no">MPV Sl no:</label>
+                    <input type="text" id="mpv_sl_no">
+                </div>
+                <div class="form-group">
+                    <label for="oil_filter_batch_no">Oil filter Batch no:</label>
+                    <input type="text" id="oil_filter_batch_no">
+                </div>
+            </div>
+
+        <section class="station-section1">
+            <h2 class="sub-title">Station-5</h2>
+            <h3 class="sub-title">Remarks</h3>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="assembly_remarks">Assembly Remarks:</label>
+                    <input type="text" id="assembly_remarks" required>
+                </div>
+                <div class="form-group">
+                    <label for="quality_remarks">Quality Remarks:</label>
+                    <input type="text" id="quality_remarks">
+                </div>
+            </div>
+
+
+        <!-- Buttons Section -->
+        <div class="buttons">
+            <button class="btn btn-back" id="backBtn">Back</button>
+            <button class="btn btn-submit" id="submitBtn">SUBMIT</button>
+            <button class="btn btn-next" id="nextBtn">NEXT</button>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="DFactory2_valvescript.js"></script>
+</body>
+</html>

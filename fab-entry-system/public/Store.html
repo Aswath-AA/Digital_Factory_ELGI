@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stores - Release Details</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <img src="./elgi--600.png" alt="ELGi Logo">
+            <div>
+                <h2>STORES</h2>
+                <p>RELEASE DETAILS</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div><label>Date:</label><input type="date" id="date"></div>
+            <div><label>TPL No:</label><input type="text" id="tpl_No"></div>
+            <div><label>Model:</label><input type="text" id="model"></div>
+            <div><label>CFM:</label><input type="text" id="cfm"></div>
+            <div><label>PO.No:</label><input type="text" id="po_no"></div>
+            <div><label>W.Pr:</label><input type="text" id="wpr"></div>
+        </div>
+
+        <!-- Tank Details Section -->
+        <h3 class="sub-title">Tank & Canopy Details</h3>
+        <div class="grid">
+            <div><label>Tank Part No:</label><input type="text" id="tank_part_no"></div>
+            <div><label>Tank SI No:</label><input type="text" id="tank_si_no"></div>
+            <div><label>Canopy Part No:</label><input type="text" id="canopy_part_no"></div>
+            <div><label>Canopy SI No:</label><input type="text" id="canopy_si_no"></div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn" id="submitBtn">SUBMIT</button>
+            <button class="btn btn-check" id="nextBtn">NEXT</button>
+        </div>
+    </div>
+
+    <script src="storescript.js"></script>
+</body>
+</html>

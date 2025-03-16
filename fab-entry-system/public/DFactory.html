@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Factory - Assembly - Stations</title>
+    <link rel="stylesheet" href="DFactory.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <img src="./elgi--600.png" alt="ELGi Logo">
+            <div>
+                <h2>Digital Factory</h2>
+                <p>Assembly & Stations</p>
+            </div>
+        </div>
+
+        <h2 class="sub-title">Station-1</h2>
+        <h4 class="sub-title">Fan Motor Details</h4>
+        <div class="grid">
+            <div><label>Make:</label><input type="text" id="make"></div>
+            <div><label>Fan SI NO:</label><input type="text" id="fan_si_no"></div>
+            <div><label>Amps:</label><input type="text" id="amps"></div>
+            <div><label>Kw:</label><input type="text" id="kw"></div>
+            <div><label>Volt:</label><input type="text" id="volt"></div>
+            <div><label>Cooler SI No:</label><input type="text" id="cooler_si_no"></div>
+        </div>
+
+        <h2 class="sub-title">Station-2</h2>
+        <h4 class="sub-title">Control Panel Details</h4>
+        <div class="grid">
+            <div><label>CP SI No:</label><input type="text" id="cp_si_no"></div>
+            <div><label>CP Model:</label><input type="text" id="cp_model"></div>
+            <div><label>Drg No:</label><input type="text" id="drg_no"></div>
+            <div><label>PLC Model:</label>
+                <select id="plc_model">
+                    <option value="Neuron II">Neuron II</option>
+                    <option value="Neuron III">Neuron III</option>
+                </select>
+            </div>
+            <div><label>PLC SI No:</label><input type="text" id="plc_si_no"></div>
+        </div>
+
+        <h3 class="sub-title">If VFD Model</h3>
+        <div class="grid">
+            <div><label>VFD Model No:</label><input type="text" id="vfd_model_no"></div>
+            <div><label>VFD SL no:</label><input type="text" id="vfd_sl_no"></div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-back" id="backBtn">Back</button>
+            <button class="btn" id="submitBtn">SUBMIT</button>
+            <button class="btn btn-check" id="nextBtn">NEXT</button>
+        </div>
+    </div>
+    <script src="DFactory.js"></script>
+</body>
+</html>

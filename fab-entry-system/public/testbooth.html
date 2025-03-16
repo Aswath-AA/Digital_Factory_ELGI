@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Booth Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h2>FAB Number Entry</h2>
+
+        <div class="section">
+            <label>Fab No:</label>
+            <input type="text" id="fabNo">
+        </div>
+        <div class="section">
+            <label>Airend No:</label>
+            <input type="text" id="airendNo">
+        </div>
+
+        <h3>Main Motor Information</h3>
+        <div class="grid">
+            <div>Make: <input type="text" id="make"></div>
+            <div>KW: <input type="text" id="kw"></div>
+            <div>Serial Number: <input type="text" id="serialNumber"></div>
+            <div>S.F: <input type="text" id="sf"></div>
+            <div>Volt: <input type="text" id="voltHz"></div>
+            <div>AMP: <input type="text" id="amp"></div>
+            <div>Hz: <input type="text" id="hz"></div>
+            <div>RPM: <input type="text" id="rpm"></div>
+            <div>Frame: <input type="text" id="frame"></div>
+            <div>Eff: <input type="text" id="eff"></div>
+            <div>MED Year: <input type="text" id="medYear"></div>
+            <div>Ins Class: <input type="text" id="insClass"></div>
+        </div>
+
+        <br><button class="btn" id="submitBtn">SUBMIT</button>
+        
+    </div>
+    <div class="buttons">
+        <button class="btn" id="exportExcel">Export to Excel</button>
+        <button class="btn btn-back" id="backBtn">Back</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
